@@ -89,7 +89,7 @@ function processInput(e) {
 }
 
 function checkLevel() {
-    let newLevel = Math.floor(score / 50) + 1;
+    let newLevel = Math.floor(score / 100) + 1;
     if (newLevel > level) {
         level = newLevel;
         bannerText = "¡ALERTA! NIVEL " + level.toString().padStart(2, '0') + ": ACTIVIDAD MUTANTE AUMENTADA";
