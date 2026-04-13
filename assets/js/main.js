@@ -3,7 +3,7 @@ const ctx = canvas.getContext('2d');
 canvas.width = 854; canvas.height = 480;
 
 // Sonidos e Imágenes
-const tecladoSound = new Audio('./assets/audio/teclado.m4a');
+const tecladoSound = new Audio('assets/audio/teclado.m4a');
 const bgMusic = new Audio('./assets/audio/ambiente.m4a'); // Nueva línea
 tecladoSound.loop = true;
 bgMusic.loop = true;       // Para que suene siempre en bucle
